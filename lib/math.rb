@@ -16,7 +16,7 @@ end
 
 def modulo(num1, num2)
 quotient = num1/num2
-return quotient - num2
+return num1 - (quotient * num2)
 end
 
 def square_root(num)
